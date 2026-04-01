@@ -95,7 +95,7 @@ CREATE TABLE github_repos (
 api:
   query: "data-engineer language:python"
   per_page: 100
-  token: ""  # опционально (GitHub token)
+  token: ""  # (GitHub token)
 
 postgres:
   user: postgres
