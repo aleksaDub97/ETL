@@ -50,8 +50,8 @@ GitHub API
 ├── github_etl.py        # основной ETL-скрипт
 ├── config.yaml          # конфигурация
 ├── state.txt            # хранение последнего запуска
-├── data/                # parquet файлы
-├── github_etl.log       # лог файл
+├── data/                # сюда сохраняются parquet файлы
+├── github_etl.log       # сюда сохраняются логи файла
 └── README.md
 ```
 
