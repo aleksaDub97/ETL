@@ -1,0 +1,19 @@
+api:
+  query: "data-engineer language:python"
+  per_page: 100
+  token: ""
+
+postgres:
+  user: postgres
+  password: postgres
+  host: localhost
+  port: 5432
+  db: etl_db
+  table: github_repos
+
+storage:
+  parquet_path: data
+
+telegram:
+  token: "YOUR_TOKEN"
+  chat_id: "YOUR_CHAT_ID"
