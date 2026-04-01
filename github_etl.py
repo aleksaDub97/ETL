@@ -11,7 +11,7 @@ import yaml
 
 # ================= LOGGING =================
 
-LOG_FILE = 'github_etl.log'
+LOG_FILE = 'logs/github_etl.log'
 LOG_FORMAT = '%(asctime)s - %(levelname)s - [%(etl_id)s] - %(message)s'
 
 formatter = logging.Formatter(LOG_FORMAT)
